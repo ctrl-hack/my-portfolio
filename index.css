@@ -1,7 +1,82 @@
-p {
-  background-color: red;
-  color: green;
-  font-size: large;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+/* Base styles */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 175%;
+}
+.badge {
+  float: right;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  z-index: 9999;
+  border: 2px solid black;
+  font-size: 125%;
+  padding: 5px;
+}
+.chicken {
+  color: black;
+  background-color: palevioletred;
+}
+.beef {
+  color: white;
+  background-color: red;
+}
+.sushi {
+  color: black;
+  background-color: yellow;
+}
+.row {
+  width: 100%;
+}
+/* Large devices only */
+@media (min-width: 992px) {
+  .col-lg-4 {
+    position: relative;
+    float: left;
+    padding: 25px;
+    background-color: lightgrey;
+    border: 2px solid black;
+    margin: 1%;
+    width: 31%;
+  }
+}
+/* Medium devices only */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6,
+  .col-md-12 {
+    float: left;
+    position: relative;
+    padding: 25px;
+    background-color: lightgrey;
+    border: 2px solid black;
+    margin: 1%;
+  }
 
+  .col-md-6 {
+    width: 48%;
+  }
+
+  .col-md-12 {
+    width: 98%;
+  }
+}
+/* Small devices only */
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    position: relative;
+    background-color: lightgrey;
+    padding: 25px;
+    border: 2px solid black;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 85%;
+  }
+}
