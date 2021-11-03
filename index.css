@@ -18,17 +18,17 @@ h1 {
   font-size: 125%;
   padding: 5px;
 }
-.chicken {
+.gold {
   color: black;
-  background-color: palevioletred;
+  background-color: gold;
 }
-.beef {
+.silver {
+  color: black;
+  background-color: silver;
+}
+.bronze {
   color: white;
-  background-color: red;
-}
-.sushi {
-  color: black;
-  background-color: yellow;
+  background-color: brown;
 }
 .row {
   width: 100%;
@@ -39,7 +39,7 @@ h1 {
     position: relative;
     float: left;
     padding: 25px;
-    background-color: lightgrey;
+    background-color: wheat;
     border: 2px solid black;
     margin: 1%;
     width: 31%;
